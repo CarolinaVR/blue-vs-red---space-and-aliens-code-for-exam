@@ -1,4 +1,5 @@
 # blue-vs-red---space-and-aliens-code-for-exam
+
 int shipX = 250;//variable - x position ship
 int shotX = 250;// variable - x position shot
 int shotY = 480;//variable - y position shot
@@ -113,19 +114,6 @@ void draw() {
       enemy2Dir = "Left";//string, comparisons, moving left enemy 2
       enemyCount = 2;
 
-    /*
-    int shipX = 250;//variable - x position ship
-int shotX = 250;// variable - x position shot
-int shotY = 480;//variable - y position shot
-int enemyX = 475;//variable - x position enemy
-int enemy2X = 425;//variable - x position enemy 2 
-//boolean enemyInvisible = false; //if- true false - enemy is visible
-//boolean enemy2Invisible = true;// if true false - enemy 2 is visible
-boolean shotInvisible = true;// if true - conditions - invisible shot
-String enemyDir = "Left";//string, comparisons, moving left enemy 1
-String enemy2Dir = "Left";//string, comparisons, moving left enemy 2
-int enemyCount = 2;//variable counter with 2 enemies
-*/
     }
     
   }//close enemy count
